@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
+import Palette from "./Palette";
+import seedColors from "./seedColors";
 
 function App() {
   return (
     <div>
-      <h1>Hi</h1>
+      <Palette {...seedColors[4]}/>
     </div>
   );
 }
